@@ -70,23 +70,6 @@
         -webkit-overflow-scrolling: touch;
       }
 
-      .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
-        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-
-        --bs-btn-font-weight: 600;
-        --bs-btn-color: var(--bs-white);
-        --bs-btn-bg: var(--bd-violet-bg);
-        --bs-btn-border-color: var(--bd-violet-bg);
-        --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
-        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
-      }
-
       .bd-mode-toggle {
         z-index: 1500;
       }
@@ -112,21 +95,23 @@
         {{-- halaman home start  --}}
     <div class="text-center">
 
-       <div class="mb-5 mt-3 border border-3 border-dark">
+       <div class="mb-5 mt-5 border border-3 border-dark">
         <div class="d-grid gap-1 d-sm-flex justify-content-sm-center  me-5 ">
             <a href="beranda" class="p-1 m-2 text-dark text-decoration-none me-5 fw-semibold">HALAMAN UTAMA</a>
             <p class="m-2 border border-2 border-dark"></p>
             <a href="login" class="p-1 m-2  text-dark text-decoration-none ms-5 fw-semibold">LOGIN</a>
         </div>
        </div>
-
-        <h1 class="display-4 fw-bold text-body-emphasis">Centered screenshot</h1>
-        <div class="col-lg-6 mx-auto">
-         <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+       <div style="margin-top: 30vh">
+           <p class="fs-3 fw-bold text-body-emphasis ">SELAMAT DATANG DI PENDATAAN MANAJEMEN BARANG BENGKEL <br> JURUSAN TJKT</p>
+       </div>
+        <div class="col-lg-7 mx-auto mt-5">
+         <p class="lead mb-4 fw-semibold">SILAHKAN UNTUK ADMIN BISA MELAKUKAN LOGIN UNTUK MELIHAT,MENAMBAH,MENGUPDATE DAN MENDELETE BARANG-BARANG DAN USER DAPAT MWLIHAT DAN MEMINJAM BARANG YANG DIBUTUHKAN</p>
         </div>
 
     </div>
 
+   
     </main>
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
