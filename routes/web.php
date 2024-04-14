@@ -13,3 +13,7 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('login.register');
 });
+
+Route::get('/admin_panel', function () {
+    return view('admin.admin');
+});
