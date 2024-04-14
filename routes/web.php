@@ -17,3 +17,15 @@ Route::get('/register', function () {
 Route::get('/admin_panel', function () {
     return view('admin.admin');
 });
+Route::get('/user', function () {
+    return view('user.user');
+});
+Route::get('/create', function () {
+    return view('create.tambah');
+});
+Route::get('/update', function () {
+    return view('update.update');
+});
+Route::get('/pinjam_barang', function () {
+    return view('pinjam.pinjam');
+});

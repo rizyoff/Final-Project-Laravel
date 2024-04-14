@@ -105,8 +105,10 @@
     </main>
 
     <div class="d-flex justify-content-between m-2" >
-           <button class="btn btn-secondary px-5 ms-5" type="button">TAMBAHKAN BARANG</button>
-           <p class="px-5 me-3 fw-medium fs-5">BARANG-BARANG DI JURUSAN TJKT</p>
+        <p class="px-5 me-3 fw-medium fs-5">BARANG-BARANG DI JURUSAN TJKT</p>
+        <a href="">
+            <button class="btn btn-secondary px-5 me-5" type="button">PINJAM BARANG</button>
+        </a>
     </div>
 
     <div class="m-5 ">
@@ -116,7 +118,6 @@
                     <th ">NAMA BARANG</th>
                     <th>PEMBUAT BARANG</th>
                     <th>TANGGAL BARANG DIMASUKKAN</th>
-                    <th>AKSI</th>
                 </tr>
             </thead>
             <tbody>
@@ -124,10 +125,6 @@
                   <th scope="row">tang crimping</th>
                   <td>Mark</td>
                   <td scope="row">Otto</td>
-                  <td class="text-center">
-                    <a href="" class="text-dark text-decoration-none p-2">UPDATE</a>
-                    <a href="" class="text-dark text-decoration-none p-2 ">DELETE</a>
-                  </td>
                 </tr>
             </tbody>
           </table>
