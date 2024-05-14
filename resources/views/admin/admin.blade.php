@@ -9,7 +9,7 @@
     <meta name="generator" content="Hugo 0.122.0">
     <title>Heroes · Bootstrap v5.3</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/heroes/">
+    <link rel="canonical" href  ="https://getbootstrap.com/docs/5.3/examples/heroes/">
 
 
 
